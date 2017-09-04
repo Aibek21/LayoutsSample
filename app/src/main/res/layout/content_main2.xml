@@ -62,4 +62,13 @@
 
 
 
+
+    <fragment
+        android:id="@+id/myfragment"
+        android:name="kz.kbtu.layoutssample.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+
+
 </LinearLayout>

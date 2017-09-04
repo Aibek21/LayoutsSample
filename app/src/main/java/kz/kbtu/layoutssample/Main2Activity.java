@@ -1,20 +1,19 @@
 package kz.kbtu.layoutssample;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.TextView;
 
-public class Main2Activity extends AppCompatActivity {
+public class Main2Activity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         TextView textView = (TextView) findViewById(R.id.text1);
         textView.setOnClickListener(new View.OnClickListener() {
