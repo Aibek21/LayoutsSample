@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
         <activity
             android:name=".Main2Activity"
@@ -20,11 +25,6 @@
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity android:name=".LifecycleActivity">
         </activity>
@@ -33,6 +33,17 @@
         <activity android:name=".list.ContactDetailsActivity">
         </activity>
         <activity android:name=".list.ScrollActivity">
+        </activity>
+        <activity android:name=".database.SharedPreferencesActivity">
+        </activity>
+        <activity android:name=".database.DatabaseActivity">
+        </activity>
+        <activity android:name=".database.RoomActivity">
+        </activity>
+        <activity
+            android:name=".MyScrollingActivity"
+            android:label="@string/title_activity_my_scrolling"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>
 

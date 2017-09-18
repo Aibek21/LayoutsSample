@@ -1,5 +1,6 @@
 package kz.kbtu.layoutssample;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
@@ -19,6 +20,7 @@ public class MainActivity extends FragmentActivity {
         mEditText = (EditText) findViewById(R.id.input1);
 
 
+        startActivity(new Intent(this, ScrollingActivity.class));
     }
 
 

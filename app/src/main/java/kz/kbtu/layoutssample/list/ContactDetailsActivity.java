@@ -13,6 +13,7 @@ public class ContactDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_details);
 
+
         Contacts contacts = getIntent().getParcelableExtra("contact");
 
         TextView textView = (TextView) findViewById(R.id.name);
