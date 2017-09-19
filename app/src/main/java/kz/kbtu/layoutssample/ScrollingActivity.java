@@ -45,6 +45,7 @@ public class ScrollingActivity extends AppCompatActivity {
             return true;
         }else if (item.getItemId() == R.id.action_menu){
             // some action
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
