@@ -50,6 +50,6 @@ https://developer.android.com/training/animation/screen-slide.html
 https://guides.codepath.com/android/ViewPager-with-FragmentPagerAdapter
 
 
-### CollapsingToolbarLayout (user for creating details page)
+### CollapsingToolbarLayout (use for creating details page)
 
 https://antonioleiva.com/collapsing-toolbar-layout/
