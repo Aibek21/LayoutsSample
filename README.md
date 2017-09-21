@@ -40,9 +40,16 @@ http://satyan.github.io/sugar/
 
 http://greenrobot.org/greendao/
 
+http://objectbox.io/
+
 
 ### ViewPager (use for creating tabs in lab 3)
 
 https://developer.android.com/training/animation/screen-slide.html
 
 https://guides.codepath.com/android/ViewPager-with-FragmentPagerAdapter
+
+
+### CollapsingToolbarLayout (user for creating details page)
+
+https://antonioleiva.com/collapsing-toolbar-layout/
