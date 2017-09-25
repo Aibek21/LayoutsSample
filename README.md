@@ -49,6 +49,7 @@ https://developer.android.com/training/animation/screen-slide.html
 
 https://guides.codepath.com/android/ViewPager-with-FragmentPagerAdapter
 
+http://www.gadgetsaint.com/android/create-viewpager-tabs-android
 
 ### CollapsingToolbarLayout (use for creating details page)
 
